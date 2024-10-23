@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.title {
+    margin: 0 0 20px 0;
+}
+
+.invisible-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.invisible-table td {
+    border: none;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.login {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    color: #777;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px; /* Adjusts spacing between icons */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly increases size on hover */
+}
+
+.contact-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
